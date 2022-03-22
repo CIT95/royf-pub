@@ -1,41 +1,27 @@
 colors = {
     "Clear":
-    {
-        """If you have a clear urine, \
-you have been drinking too much water. """
-    },
+    {'Clear': """If you have a clear urine, \
+you have been drinking too much water. """},
     "Yellow":
-    {
-        """If you have a yellowish to \
-amber urine, that is perfectly normal. """
-    },
+    {'Yellowish to amber': """If you have a yellowish to \
+amber urine, that is perfectly normal. """},
     "Red":
-    {
-        """If you have a red or pink urine, \
-you might have ate/drank red/dyed things, etc. """
-    },
+    {'Red or Pink': """If you have a red or pink urine, \
+you might have ate/drank red/dyed things, etc. """},
     "Orange":
-    {
-        """If you have an orange urine, \
-it could be dehydration. """
-    },
+    {'Orange': """If you have an orange urine, \
+it could be dehydration. """},
     "Green":
-    {
-        """If you have a blue or green urine, \
+    {'Blue or Green': """If you have a blue or green urine, \
 it is most likely connected to something that you ate. \
 This is very rare. In rare cases, \
-it could mean a bacterial infection. """
-    },
+it could mean a bacterial infection. """},
     "Darkbrown":
-    {
-        """If you have a dark brown urine, \
-it might be because of dehydration, diet related, etc. """
-    },
+    {'Dark Brown': """If you have a dark brown urine, \
+it might be because of dehydration, diet related, etc. """},
     "Cloudy":
-    {
-        """If you have a cloudy urine, It might be \
-because of dehydration, urinary tract infection (UTI), etc. """
-    }
+    {'Cloudy': """If you have a cloudy urine, It might be \
+because of dehydration, urinary tract infection (UTI), etc. """}
 }
 
 
@@ -59,7 +45,7 @@ drinking of water by a little. \n"
             elif color == "Yellow":
                 print(colors["Yellow"])
                 return f"\t{name}, keep drinking \
-enough water everyday to maintain this. \n"
+enough water every day to maintain this. \n"
             elif color == "Red":
                 print(colors["Red"])
                 return f"\t{name}, you need to get enough water each day. \
